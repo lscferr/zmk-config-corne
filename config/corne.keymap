@@ -357,7 +357,7 @@
             bindings = <
 &kp ESCAPE         &kp Q              &kp W         &kp F            &kp P            &kp G                  &kp J                &kp L            &kp U            &kp Y         &kp SEMI           &kp GRAVE
 &kp BACKSPACE      &hml LEFT_SHIFT A  &hml LCTRL R  &hml LEFT_ALT S  &hml LEFT_GUI T  &kp D                  &kp H                &hmr LEFT_GUI N  &hmr LEFT_ALT E  &hmr LCTRL I  &hmr LEFT_SHIFT O  &kp SINGLE_QUOTE
-&td_magic_layer_3  &kp Z              &kp X         &kp C            &kp V            &kp B                  &kp K                &kp M            &kp COMMA        &kp DOT       &qexcl             &td_magic_layer_4
+&td_magic_layer_4  &kp Z              &kp X         &kp C            &kp V            &kp B                  &kp K                &kp M            &kp COMMA        &kp DOT       &qexcl             &td_magic_layer_3
                                                     &kp TAB          &kp SPACE        &layer_hold_tap 1 1    &layer_hold_tap 2 2  &td_magic_shift  &kp ENTER
             >;
         };
@@ -375,10 +375,10 @@
         num {
             display-name = "NUM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans              &trans               &trans                  &trans                  &trans    &trans  &trans            &trans            &trans         &trans              &trans
+&trans  &hml LEFT_SHIFT N1  &hml LCTRL NUMBER_2  &hml LEFT_ALT NUMBER_3  &hml LEFT_GUI NUMBER_4  &kp N5    &kp N6  &hmr LEFT_GUI N7  &hmr LEFT_ALT N8  &hmr LCTRL N9  &hmr LEFT_SHIFT N0  &trans
+&trans  &trans              &trans               &trans                  &trans                  &trans    &trans  &trans            &trans            &trans         &trans              &trans
+                                                 &trans                  &trans                  &trans    &trans  &trans            &trans
             >;
         };
 
