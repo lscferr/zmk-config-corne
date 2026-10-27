@@ -259,8 +259,8 @@
             key-positions = <15 27>;
         };
 
-        equal {
-            bindings = <&td_equals_afn>;
+        arrow_fn {
+            bindings = <&arrow_fn>;
             key-positions = <16 28>;
         };
 
@@ -274,8 +274,8 @@
             key-positions = <18 6>;
         };
 
-        plus {
-            bindings = <&kp PLUS>;
+        equal_plus {
+            bindings = <&kp EQUAL>;
             key-positions = <7 19>;
         };
 
