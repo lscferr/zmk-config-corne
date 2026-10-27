@@ -8,10 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&sk {
-    quick-release;
-};
-
 / {
     behaviors {
         hml: homerow_mods_left {
@@ -359,10 +355,10 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-&kp ESCAPE         &kp Q              &kp W         &kp F            &kp P            &kp G                  &kp J                &kp L            &kp U            &kp Y         &kp SEMI           &kp GRAVE
-&kp BACKSPACE      &hml LEFT_SHIFT A  &hml LCTRL R  &hml LEFT_ALT S  &hml LEFT_GUI T  &kp D                  &kp H                &hmr LEFT_GUI N  &hmr LEFT_ALT E  &hmr LCTRL I  &hmr LEFT_SHIFT O  &kp SINGLE_QUOTE
-&td_magic_layer_4  &kp Z              &kp X         &kp C            &kp V            &kp B                  &kp K                &kp M            &kp COMMA        &kp DOT       &qexcl             &td_magic_layer_3
-                                                    &kp TAB          &kp SPACE        &layer_hold_tap 1 1    &layer_hold_tap 2 2  &td_magic_shift  &kp ENTER
+&kp ESCAPE           &kp Q              &kp W         &kp F            &kp P            &kp G                  &kp J                &kp L            &kp U            &kp Y         &kp SEMI           &kp GRAVE
+&kp BACKSPACE        &hml LEFT_SHIFT A  &hml LCTRL R  &hml LEFT_ALT S  &hml LEFT_GUI T  &kp D                  &kp H                &hmr LEFT_GUI N  &hmr LEFT_ALT E  &hmr LCTRL I  &hmr LEFT_SHIFT O  &kp SINGLE_QUOTE
+&layer_hold_tap 4 4  &kp Z              &kp X         &kp C            &kp V            &kp B                  &kp K                &kp M            &kp COMMA        &kp DOT       &qexcl             &layer_hold_tap 3 3
+                                                      &kp TAB          &kp SPACE        &layer_hold_tap 1 1    &layer_hold_tap 2 2  &td_magic_shift  &kp ENTER
             >;
         };
 
